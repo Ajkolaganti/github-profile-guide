@@ -421,15 +421,16 @@ What YOU personally designed or built.
 </div>
 </section>
 
-<section class="section" id="prompt">
-<div class="section-eyebrow">10 &mdash; master prompt</div>
-<h2 class="section-title">Give This to Claude.<br/>Get Your Profile Updated<br/>in <span style="color:var(--neon)">Minutes.</span></h2>
-<p class="section-desc">Copy this prompt, paste it into Claude (claude.ai), answer its questions, and it will build and push your entire GitHub profile README automatically&mdash;color-matched, fully structured, and live on GitHub via Composio.</p>
+<section class="section" id="prompt" style="background:linear-gradient(135deg,rgba(202,255,60,0.04) 0%,transparent 60%);border-top:2px solid var(--neon);position:relative;overflow:visible;">
+<div style="position:absolute;top:-1px;left:80px;right:80px;height:1px;background:linear-gradient(90deg,transparent,var(--neon),transparent);pointer-events:none"></div>
+<div class="section-eyebrow">10 &mdash; the takeaway</div>
+<h2 class="section-title" style="font-size:clamp(28px,4vw,48px)">Give This Prompt to Claude.<br/>Get Your Profile Live in<br/><span style="color:var(--neon);text-shadow:0 0 40px rgba(202,255,60,0.3)">15 Minutes.</span></h2>
+<p class="section-desc">Copy the master prompt below, paste it into Claude (claude.ai) with the Composio connector enabled, answer its questions, and Claude will build and push your entire personalized README to GitHub automatically.</p>
 
 <div class="snippet-block">
 <div class="snippet-header">
 <span class="snippet-title">Master Prompt &mdash; paste directly into Claude</span>
-<button class="copy-btn" onclick="copyCode(this,'master-prompt')">copy prompt</button>
+<button class="copy-btn" onclick="copyCode(this,'master-prompt')" style="color:var(--neon);border-color:var(--border);background:var(--neon-dim);font-size:11px;padding:6px 14px">&#128203; copy prompt</button>
 </div>
 <pre id="master-prompt" style="white-space:pre-wrap;font-size:12px;line-height:1.75"><span class="c">You are a world-class GitHub Profile README designer.
 Task: build me a COMPLETE personalized GitHub Profile README
